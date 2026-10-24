@@ -56,7 +56,15 @@ MaterialPageRoute(builder: (context)=>BmiCalculatorScreen())
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(Icons.monitor_weight_outlined,color: Colors.white, size: 52,),
+                  Container(
+                    height: 100,
+                    width: 100,
+                    decoration: BoxDecoration(
+                      color: Colors.white.withValues(alpha: 0.15),
+                      shape: BoxShape.circle,
+                    ),
+                    
+                    child: Icon(Icons.monitor_weight_outlined,color: Colors.white, size: 52,)),
                   const SizedBox(height: 20,),
                   const Text('BMI Calculator',
                   style: TextStyle(
