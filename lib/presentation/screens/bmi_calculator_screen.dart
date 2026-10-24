@@ -1,4 +1,5 @@
 import 'package:bmi_calculator_app/presentation/widgets/bmi_reference_table.dart';
+import 'package:bmi_calculator_app/presentation/widgets/input_card.dart';
 import 'package:flutter/material.dart';
 
 class BmiCalculatorScreen extends StatefulWidget {
@@ -9,6 +10,8 @@ class BmiCalculatorScreen extends StatefulWidget {
 }
 
 class _BmiCalculatorScreenState extends State<BmiCalculatorScreen> {
+  final _heightController=TextEditingController();
+  final _weightController=TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,6 +20,7 @@ class _BmiCalculatorScreenState extends State<BmiCalculatorScreen> {
       ),
       body: Column(
         children: [
+          InputCard(heightController: _heightController, weightController: _weightController),
           BmiReferenceTable(),
         ],
       ),
