@@ -298,7 +298,6 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for complete det
 ### Author & Maintainer
 - **Bn Biswas**
   - **GitHub:** [@biswasbn99](https://github.com/biswasbn99)
-  - **Email:** [biswasbn99@gmail.com](mailto:biswasbn99@gmail.com)
   - **Repository:** [https://github.com/biswasbn99/Bmi_Calculator_App](https://github.com/biswasbn99/Bmi_Calculator_App)
 
 ---
